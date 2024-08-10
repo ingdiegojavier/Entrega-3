@@ -1,0 +1,234 @@
+@font-face{
+    font-family: "Montserrat";
+    src:url(../fuente/Montserrat-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Roboto";
+    src:url(..fuente/Roboto-Regular.ttf);
+}
+/*Formateo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    background-color: #000218;
+    width: 1440px;
+    height: 95px;
+    
+
+}
+.icono {
+    width: 211.02px;
+    height: 58px;
+    padding-top: 37px;
+    margin-left: 132px;
+}
+/* Section 1*/
+.section1 {
+    display:flex;
+    width: 1440px;
+    height: 683px;
+    background-color: #000218;
+ 
+}
+.caja1 {
+    background-color: #000218;
+    width: 573px;
+    height: 382px;
+ 
+    margin-left: 132px;
+    margin-top: 150px;
+}
+.caja2 {
+    width: 704px;
+    height: 683px;
+        
+    background-color: #000218;
+}
+h1 {
+    width: 542px;
+    height: 240px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    background-color:#000218 ;
+    color:#FFFFFF;
+    margin-bottom: 30px;
+    
+}
+p{
+    width: 458px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat",sans-serif;
+    color:#FFFFFF;
+    background-color: #000218;
+    margin-bottom: 30px;
+}
+.shop {
+    background-color:  #E74040;
+    color: #FFFFFF;
+    width: 119px;
+    height: 52px;
+    border-radius: 5px;
+}
+.Add {
+    background-color:  #000218;
+    color: #E74040;
+    width: 167px;
+    height: 52px;
+    border-radius: 5px;
+    border:solid 1px #E74040
+}
+/*Section 2 */
+section.section2 {
+    background-color: #CDCDD2;
+    width: 1440px;
+    height: 718px;
+       
+}
+
+h2 {
+    width: 378px;
+    height: 50px;
+    font-family: "Monserrat",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#252B42;
+    margin-left: 195px;
+    padding-top: 130px;
+    
+}
+.contenedor{
+    width: 1045px;
+    height: 308px;
+    padding-top: 170px ;
+    padding-left: 195px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.heroe1 {
+    width: 328px;
+    height: 308px;
+    background-color: white;
+    padding-left: 37px;
+    padding-top: 27px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+.heroe2 {
+    width: 328px;
+    height: 308px;
+    background-color: white;
+    padding-left: 37px;
+    padding-top: 27px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+
+}
+.heroe3 {
+    width: 328px;
+    height: 308px;
+    background-color: white;
+    padding-top: 27px;
+    padding-left: 37px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+
+    
+}
+h3 {
+    width: 106px;
+    height: 24px;
+    font-family: "Monserrat",sans-serif;
+    color:#252B42;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 27px;
+    background-color: white;
+}  
+.redline{
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    margin-top: 35px;
+}
+p.parrafo {
+    width: 253px;
+    height: 80px;
+    font-family: "Monserrat",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:#737373;
+    padding-top: 37px;
+    padding-right:37px ;
+    background-color: white;
+}
+/* Section 3 */
+
+.section3 {
+    background-color: #000000;
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+ h4 {
+    width: 803px;
+    height: 74px;
+    font-family: "Roboto",sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color:white;
+    text-align: center;
+    padding-top: 102px;
+}
+
+h5 {
+    width: 430px;
+    height: 54.84px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color:white;
+    text-align: center;
+    padding-top: 74px;
+}
+.contenedor2 {
+    padding-top: 129px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+/* Footer */
+footer {
+    width: 1440px;
+    height: 74px;
+    background-color: #323030;
+}
+h6 {
+    width: 763px;
+    height: 24px;
+    color:#FFFFFF;
+    font-family: "Monserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-left: 195px;
+}
+.foot {
+    padding-left: 1000px;
+}
+#margen {
+    padding-left: 20px;
+    padding-right: 20px;
+}
